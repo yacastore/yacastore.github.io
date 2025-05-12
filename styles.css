@@ -1,117 +1,17 @@
-background-color: #a0e6a0;
-
 body, html {
   height: 100%;
   font-family: Arial, sans-serif;
-  background: linear-gradient(135deg, #006400, #00cc66);
+  background: linear-gradient(135deg, #1d8a36, #a5f3a0);
   background-attachment: fixed;
-  color: white;
-}
-
-body {
+  color: black;
   margin: 0;
-  line-height: 1.5;
   text-align: center;
 }
 
 .header {
-  background-color: #00994d;
+  background-color: #4caf50;
   padding: 20px;
-  color: white;
-}
-
-.products {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  padding: 20px;
-}
-
-.product {
-  background-color: #004d26;
-  border: 1px solid #00cc66;
-  border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0, 255, 128, 0.3);
-  width: 300px;
-  padding: 15px;
-  color: white;
-}
-
-.product img {
-  width: 100%;
-  height: auto;
-  display: block;
-  margin-bottom: 10px;
-  border-radius: 6px;
-}
-
-.product h2 {
-  font-size: 1.2em;
-  margin: 10px 0;
-}
-
-.product p {
-  font-size: 0.95em;
-  margin-bottom: 15px;
-}
-
-.product button {
-  background-color: #00e676;
-  color: #003300;
-  border: none;
-  padding: 10px 15px;
-  border-radius: 4px;
-  cursor: pointer;
-  font-weight: bold;
-}
-
-.product button:hover {
-  background-color: #00c853;
-}
-
-.contact {
-  margin: 20px 0;
-}
-
-.whatsapp-btn {
-  background-color: #25D366;
-  color: white;
-  text-decoration: none;
-  padding: 12px 20px;
-  border-radius: 4px;
-  font-size: 1em;
-  display: inline-block;
-}
-
-.whatsapp-btn:hover {
-  opacity: 0.9;
-}
-
-.payment {
-  background-color: #008040;
-  padding: 15px;
-  color: white;
-}
-
-.payment ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.payment li {
-  display: inline-block;
-  margin: 0 10px;
-  font-weight: bold;
-}
-
-/* Diseño responsivo */
-@media only screen and (max-width: 600px) {
-  .products {
-    flex-direction: column;
-    align-items: center;
-  }
+  color: black;
 }
 
 .logo {
@@ -119,15 +19,15 @@ body {
   margin-bottom: 10px;
 }
 
-.perfumes {
+.perfumes, .otros-productos {
   padding: 40px 20px;
-  background-color: #004d26;
-  color: white;
+  background-color: #d9fdd3;
   text-align: center;
 }
 
-.perfumes h2 {
+.perfumes h2, .otros-productos h2 {
   margin-bottom: 20px;
+  color: #1b5e20;
 }
 
 .perfume-grid {
@@ -138,12 +38,12 @@ body {
 }
 
 .perfume-item {
-  background-color: #003d1a;
-  color: white;
+  background-color: #ffffff;
+  color: black;
   padding: 15px;
   border-radius: 10px;
   text-align: center;
-  box-shadow: 0 0 10px rgba(0,255,128,0.2);
+  box-shadow: 0 0 10px rgba(34, 139, 34, 0.2);
 }
 
 .perfume-item img {
@@ -162,9 +62,9 @@ body {
 }
 
 .perfume-item button {
-  background-color: #00e676;
+  background-color: #4caf50;
   border: none;
-  color: #003300;
+  color: white;
   padding: 10px;
   border-radius: 6px;
   cursor: pointer;
@@ -172,8 +72,9 @@ body {
 }
 
 .perfume-item button:hover {
-  background-color: #00c853;
+  background-color: #388e3c;
 }
+
 .social-media {
   margin: 40px 0;
   text-align: center;
@@ -206,12 +107,7 @@ body {
 .social-link.tiktok:hover {
   background-color: #1c1c1c;
 }
-.header h1 {
-  color: #00FF7F; /* Verde brillante */
-  font-weight: bold; /* Para darle más presencia */
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Sombra sutil para destacar */
-}
+.perfume-item {
+background-color: #a0e6a0;
 
-.header p {
-  color: black; /* Texto negro para el párrafo */
 
